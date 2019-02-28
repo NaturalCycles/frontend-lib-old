@@ -1,0 +1,32 @@
+{
+  "color": {
+    "grape": { "value": "#80379b" },
+    "emoGrape": { "value": "#49155c" },
+    "grapeLight2": { "value": "#be86d4" },
+
+    "mardiGras": { "value": "#a31a7e" },
+    "mardiGrasDark1": { "value": "#8a1568" },
+    "mardiGrasDark2": { "value": "#721150" },
+    "emoMardiGras": { "value": "#5c0f47" },
+
+    "whiteChocolate": { "value": "#fceee7" },
+    "prosecco": { "value": "#ffd7d6" },
+    "whisper": { "value": "#f1eaea" },
+    "whisperLight": { "value": "#f7f4f4" },
+    "vanillaIce": { "value": "#e2d4d4" },
+    "deepPurple": { "value": "#320e40" },
+    "deep": { "value": "#1a206d" },
+    "olle": { "value": "#c9dd84" },
+    "milkChocolate": { "value": "#e8d2c6" },
+    "champagne": { "value": "#ffb7b5" },
+    "monaLisa": { "value": "#ff928e" },
+    "habanero": { "value": "#f9584f" },
+    "cholula": { "value": "#e7483f" },
+    "tabasco": { "value": "#d83030" },
+    "satsuma": { "value": "#ff9000" },
+
+    "oliver": { "value": "#a1c862" },
+    "sriracha": { "value": "#ff736f" },
+    "lightBlue": { "value": "#63a4f8" }
+  }
+}

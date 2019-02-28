@@ -1,0 +1,29 @@
+{
+  "source": ["properties/color/*.json"],
+  "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "colors.js",
+          "format": "javascript/es6"
+        },
+        {
+          "destination": "colors.ts",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "_colors.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
