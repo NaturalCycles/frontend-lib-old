@@ -1,0 +1,24 @@
+version: 2
+
+defaults: &defaults
+  resource_class: xlarge
+  docker:
+    - image: naturalcycles/ci-node:latest
+  working_directory: ~/repo
+
+jobs:
+  install:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: yarn --pure-lockfile
+      - save_cache:
+          key: yarn-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+
+workflows:
+  version: 2
+  default-workflow:
+    jobs:
+      - install
