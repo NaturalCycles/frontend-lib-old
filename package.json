@@ -1,7 +1,7 @@
 {
   "name": "@naturalcycles/frontend-lib",
   "scripts": {
-    "build-colors": "ts-node -T ./scripts/build.ts",
+    "build-colors": "ts-node -T ./scripts/build-colors.ts",
     "clean": "del dist/*"
   },
   "dependencies": {},
